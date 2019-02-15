@@ -8,7 +8,7 @@
 
 
 // Points.
-var posArray = new Array(), negArray=new MVCArray();
+var posArray = new Array(), negArray=new Array();
 
 // Gradients.
 var posGradient, negGradient;
