@@ -25,9 +25,9 @@ with open("labeled_corpus.tsv", encoding="utf-8") as csvfile:
 
 # create list of tuples to sort
 word_freq_sorted = []
-for w,count in word_counts_dict.items():
+for w, count in word_counts_dict.items():
     if count > 1:
-        word_freq_sorted.append((count,w))
+        word_freq_sorted.append((count, w))
 
 word_freq_sorted.sort()
 print(word_freq_sorted)
